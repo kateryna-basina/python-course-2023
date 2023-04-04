@@ -35,3 +35,4 @@ if jmeno_count > 5:
 else:
     jmeno_capitalized = jmeno_split[0].capitalize()
     print (f"{jmeno_capitalized} {prijmeni_capitalized}") #eslti jmeno ma mine 5 znaku, zobrazime vsechno jak je 
+    
