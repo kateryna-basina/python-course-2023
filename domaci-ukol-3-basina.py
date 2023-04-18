@@ -17,7 +17,7 @@ for student, znamka in soubor.items(): #projdeme ten cely soubor cyklusom "for"
         
 #ulozime nove znamky jako json soubor
 
-with open ('prospeli.json', 'w') as file: 
-    json.dump(prospeli, file)
+with open ('prospeli.json', 'w', encoding='utf-8') as file: 
+    json.dump(prospeli, file, ensure_ascii=False)
 
 print (prospeli) #zobrazime vysledek
