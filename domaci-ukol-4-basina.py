@@ -26,4 +26,5 @@ znaky = len(sms)
 print (znaky)
 cena_sms = (znaky / 180) * 3
 cena_sms = round (cena_sms, 1)
-print (f"Cena sms je {cena_sms} Kc") 
+print (f"Cena sms je {cena_sms} Kc")   
+
